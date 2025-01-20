@@ -20,8 +20,8 @@ def make_scad(**kwargs):
         #typ = "fast"
         #typ = "manual"
 
-    oomp_mode = "project"
-    #oomp_mode = "oobb"
+    #oomp_mode = "project"
+    oomp_mode = "oobb"
 
     if typ == "all":
         filter = ""; save_type = "all"; navigation = True; overwrite = True; modes = ["3dpr"]; oomp_run = True
@@ -92,7 +92,7 @@ def make_scad(**kwargs):
         elif oomp_mode == "oobb":
             kwargs["oomp_classification"] = "oobb"
             kwargs["oomp_type"] = "part"
-            kwargs["oomp_size"] = ""
+            kwargs["oomp_size"] = "plate_screw_down"
             kwargs["oomp_color"] = ""
             kwargs["oomp_description_main"] = ""
             kwargs["oomp_description_extra"] = ""
@@ -107,15 +107,16 @@ def make_scad(**kwargs):
         
         part = copy.deepcopy(part_default)
         p3 = copy.deepcopy(kwargs)
-        p3["width"] = 3
-        p3["height"] = 3
-        #p3["thickness"] = 6
+        p3["width"] = 5
+        p3["height"] = 1
+        p3["thickness"] = 14
+        p3["extra"] = "bolt_recess"
         part["kwargs"] = p3
         nam = "base"
         part["name"] = nam
         if oomp_mode == "oobb":
             p3["oomp_size"] = nam
-        #parts.append(part)
+        parts.append(part)
 
 
     kwargs["parts"] = parts
@@ -142,7 +143,8 @@ def get_base(thing, **kwargs):
     depth = kwargs.get("thickness", 3)                    
     rot = kwargs.get("rot", [0, 0, 0])
     pos = kwargs.get("pos", [0, 0, 0])
-    
+    extra = kwargs.get("extra", "")
+
     #add plate
     p3 = copy.deepcopy(kwargs)
     p3["type"] = "positive"
@@ -165,6 +167,74 @@ def get_base(thing, **kwargs):
     pos1 = copy.deepcopy(pos)         
     p3["pos"] = pos1
     oobb_base.append_full(thing,**p3)
+
+    #add piece for the screwdown
+    p3 = copy.deepcopy(kwargs)
+    p3["type"] = "positive"
+    p3["shape"] = f"oobb_plate"
+    p3["width"] = 1
+    p3["height"] = 2
+    p3["depth"] = depth
+
+    pos1 = copy.deepcopy(pos)
+    pos1[1] += 7.5
+    poss = []
+    pos11 = copy.deepcopy(pos1)
+    pos11[0] += (width-1)/2 * 15    
+    pos12 = copy.deepcopy(pos11)
+    pos12[0] += -(width-1) * 15
+    poss.append(pos11)
+    poss.append(pos12)
+    p3["pos"] = poss
+    oobb_base.append_full(thing,**p3)
+
+
+    #add screws
+    p3 = copy.deepcopy(kwargs)
+    p3["type"] = "negative"
+    p3["shape"] = f"oobb_screw_countersunk"
+    p3["radius_name"] = "m3_screw_wood"
+    p3["depth"] = depth
+    p3["holes"] = "perimeter"
+    p3["m"] = "#"
+    pos1 = copy.deepcopy(pos)
+    pos1[1] += 15    
+    pos1[2] += depth
+    poss = []
+    shift_x = (width-1)/2 * 15
+    pos11 = copy.deepcopy(pos1)
+    pos11[0] += shift_x
+    pos12 = copy.deepcopy(pos1)
+    pos12[0] += -shift_x
+    poss.append(pos11)
+    poss.append(pos12)
+    p3["pos"] = poss
+    oobb_base.append_full(thing,**p3)
+
+    if "bolt_recess" in extra:
+        #add bolt head clearance
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "negative"
+        p3["shape"] = f"oobb_nut"
+        p3["radius_name"] = "m6"        
+        p3["hole"] = True        
+        p3["m"] = "#"
+        pos1 = copy.deepcopy(pos)        
+        pos1[2] += 0
+        poss = []
+        shift_x = shift_x
+        pos11 = copy.deepcopy(pos1)
+        pos11[0] += shift_x
+        pos12 = copy.deepcopy(pos1)
+        pos12[0] += -shift_x
+        pos13 = copy.deepcopy(pos1)
+        pos13[0] += 0
+        poss.append(pos11)
+        poss.append(pos12)
+        poss.append(pos13)
+        p3["pos"] = poss
+        oobb_base.append_full(thing,**p3)
+
 
     if prepare_print:
         #put into a rotation object
