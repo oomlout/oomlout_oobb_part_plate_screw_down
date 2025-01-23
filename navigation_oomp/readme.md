@@ -8,3 +8,4 @@
   * [part](oobb/part)
     * [base](oobb/part/base)
       * [5_width_1_height_14_mm_depth](oobb/part/base/5_width_1_height_14_mm_depth)
+      * [5_width_1_height_14_mm_depth_bolt_recess_extra](oobb/part/base/5_width_1_height_14_mm_depth_bolt_recess_extra)

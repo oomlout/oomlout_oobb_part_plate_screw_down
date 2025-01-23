@@ -16,8 +16,8 @@ def make_scad(**kwargs):
 
     if typ == "":
         #setup    
-        typ = "all"
-        #typ = "fast"
+        #typ = "all"
+        typ = "fast"
         #typ = "manual"
 
     #oomp_mode = "project"
@@ -216,7 +216,8 @@ def get_base(thing, **kwargs):
         p3 = copy.deepcopy(kwargs)
         p3["type"] = "negative"
         p3["shape"] = f"oobb_nut"
-        p3["radius_name"] = "m6"        
+        p3["radius_name"] = "m6"   
+        p3["overhang"] = True   
         p3["hole"] = True        
         p3["m"] = "#"
         pos1 = copy.deepcopy(pos)        
