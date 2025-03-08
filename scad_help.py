@@ -4,8 +4,7 @@ import oobb
 import oobb_base
 import yaml
 import os
-from scad import *
-
+import scad
 ###### utilities
 
 def make_parts(**kwargs):
@@ -48,14 +47,14 @@ def make_scad_generic(part):
 
     #get the part from the function get_{name}"
     try:
-        func = globals()[f"get_{name}"]    
-    except KeyError:
+        func = getattr(scad, f"get_{name}")
+    except AttributeError:
         func = None
     # test if func exists
     if callable(func):            
         func(thing, **kwargs)        
     else:            
-        get_base(thing, **kwargs)   
+        scad.get_base(thing, **kwargs)   
 
     oomp_mode = kwargs.get("oomp_mode", "project")
     
@@ -66,9 +65,19 @@ def make_scad_generic(part):
         new_size = current_size.replace(f"{project_name}_", "")
         descmain = f"{new_size}_{current_description_main}"
         kwargs["oomp_description_main"] = f"{descmain}"
+        descextra = ""
+        current_description_extra = thing.get("description_extra", "")
+        descextra = f"{current_description_extra}"
+        kwargs["oomp_description_extra"] = f"{descextra}"
     elif oomp_mode == "oobb":
-        current_description_main = thing.get("description_main", "default")        
+        current_description_main = thing.get("description_main", "default")   
+        descmain = f"{current_description_main}" 
+
+        descextra = thing.get("extra", "")    
+        if descextra != "":
+            descextra = f"{descextra}_extra"
         kwargs["oomp_description_main"] = f"{current_description_main}"
+        kwargs["oomp_description_extra"] = f"{descextra}"
         kwargs["oomp_size"] = f"{part["name"]}"
 
     #move oomp bits from kwargs to part
@@ -87,11 +96,15 @@ def make_scad_generic(part):
     oomp_id = ""
     for key in oomp_keys:
         deet = part.get(key, "")
+        deet = deet.replace(".","_")
         if deet != "":
             oomp_id += f"{deet}_"
     oomp_id = oomp_id[:-1]
     part["id"] = oomp_id
     folder = f"parts/{oomp_id}"
+    folder_scad_ouput = f"scad_output/{descmain}"
+    if descextra != "":
+        folder_scad_ouput += f"_{descextra}"
 
     for mode in modes:
         depth = thing.get(
@@ -108,7 +121,18 @@ def make_scad_generic(part):
 
         opsc.opsc_make_object(f'{folder}/{mode}.scad', thing["components"], mode=mode, save_type=save_type, overwrite=overwrite, layers=layers, tilediff=tilediff, start=start)  
 
-    
+        #copy folder to scad_output_folder
+        if True:
+            print(f"copying {folder} to {folder_scad_ouput}")
+            import os
+            if not os.path.exists(folder_scad_ouput):
+                os.makedirs(folder_scad_ouput)
+            if os.name == 'nt':
+                #copy a full directory auto overwrite
+                command = f'xcopy "{folder}" "{folder_scad_ouput}" /E /I /Y'
+                            #print(command)
+                os.system(command)
+        
 
 
     yaml_file = f"{folder}/working.yaml"
