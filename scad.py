@@ -107,9 +107,13 @@ def make_scad(**kwargs):
         part_default["full_rotations"] = [0, 0, 0]
         
         bolt_extras = ["", "bolt_recess"]
+        #bolt_extras = ["bolt_recess"]
+        
         screw_radiuses = ["m3_screw_wood", "m4_screw_wood", "m5_screw_wood", "m6_screw_wood"]
-        #screw_radiuses = ["m6_screw_wood"]
-        join_styles = ["top", "top_bottom", "left", "left_right"]
+        #screw_radiuses = ["m3_screw_wood"]
+        
+        join_styles = ["top", "top_bottom", "right", "right_left"]
+        #join_styles = ["top_bottom"]
         
         sizes = []
         sizes.append({"width": 5, "height": 1})
@@ -134,7 +138,7 @@ def make_scad(**kwargs):
                             p3["bolt_extra"] = bolt_extra
                             p3["screw_radius"] = screw_radius
                             p3["join_style"] = join_style
-                            p3["extra"] = f"{p3["join_style"]}_join_style_{p3["screw_radius"]}_screw"
+                            p3["extra"] = f"{p3["join_style"]}_join_style_{p3["screw_radius"]}"
                             if p3["bolt_extra"] != "":
                                 p3["extra"] += f"_{p3["bolt_extra"]}"
                             part["kwargs"] = p3
@@ -142,8 +146,11 @@ def make_scad(**kwargs):
                             part["name"] = nam
                             if oomp_mode == "oobb":
                                 p3["oomp_size"] = nam
-                            if "bolt_recess" in bolt_extra and thickness <=15:
-                                pass
+                            if "bolt_recess" in bolt_extra:
+                                if thickness < 15:
+                                    pass
+                                else:
+                                    parts.append(part)
                             else:
                                 parts.append(part)
 
