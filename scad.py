@@ -121,7 +121,7 @@ def make_scad(**kwargs):
         sizes.append({"width": 5, "height": 3})
         sizes.append({"width": 5, "height": 5})
 
-        thicknesses = [9,15]
+        thicknesses = [6,12,9,15]
 
         for bolt_extra in bolt_extras:
             for screw_radius in screw_radiuses:
@@ -147,7 +147,7 @@ def make_scad(**kwargs):
                             if oomp_mode == "oobb":
                                 p3["oomp_size"] = nam
                             if "bolt_recess" in bolt_extra:
-                                if thickness < 15:
+                                if thickness < 8:
                                     pass
                                 else:
                                     parts.append(part)
