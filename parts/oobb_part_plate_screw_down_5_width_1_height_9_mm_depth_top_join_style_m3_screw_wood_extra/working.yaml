@@ -31,7 +31,7 @@ kwargs:
   oomp_run: true
   oomp_size: plate_screw_down
   oomp_type: part
-  overwrite: true
+  overwrite: false
   screw_radius: m3_screw_wood
   thickness: 9
   typ: all
