@@ -1556,7 +1556,7 @@ thing:
       type: positive
       width: 2
   - - objects:
-      - - depth: 9
+      - - depth: 14
           extra: ninety_degree_join_style_m6_screw_wood
           h: 5
           height: 3
@@ -1571,24 +1571,24 @@ thing:
           shape: cylinder
           type: positive
           width: 5
-      - - depth: 9
+      - - depth: 14
           extra: ninety_degree_join_style_m6_screw_wood
-          h: 9
+          h: 14
           height: 3
           inclusion: laser
           m: '#'
           pos: &id001
           - 0
           - 0
-          - -9.0
+          - -14.0
           r: 2.25
           radius: 2.25
           shape: cylinder
           type: positive
           width: 5
-        - depth: 9
+        - depth: 14
           extra: ninety_degree_join_style_m6_screw_wood
-          h: 9
+          h: 14
           height: 3
           inclusion: 3dpr
           m: '#'
@@ -1597,9 +1597,9 @@ thing:
           shape: cylinder
           type: positive
           width: 5
-        - depth: 9
+        - depth: 14
           extra: ninety_degree_join_style_m6_screw_wood
-          h: 9
+          h: 14
           height: 3
           inclusion: 'true'
           m: '#'
@@ -1609,7 +1609,7 @@ thing:
           shape: cylinder
           type: positive
           width: 5
-      - - depth: 9
+      - - depth: 14
           extra: ninety_degree_join_style_m6_screw_wood
           h: 6
           height: 3
@@ -1624,24 +1624,24 @@ thing:
           shape: cylinder
           type: positive
           width: 5
-      - - depth: 9
+      - - depth: 14
           extra: ninety_degree_join_style_m6_screw_wood
-          h: 9
+          h: 14
           height: 3
           inclusion: laser
           m: '#'
           pos: &id002
           - 0
           - 0
-          - -9.0
+          - -14.0
           r: 3.25
           radius: 3.25
           shape: cylinder
           type: positive
           width: 5
-        - depth: 9
+        - depth: 14
           extra: ninety_degree_join_style_m6_screw_wood
-          h: 9
+          h: 14
           height: 3
           inclusion: 3dpr
           m: '#'
@@ -1650,9 +1650,9 @@ thing:
           shape: cylinder
           type: positive
           width: 5
-        - depth: 9
+        - depth: 14
           extra: ninety_degree_join_style_m6_screw_wood
-          h: 9
+          h: 14
           height: 3
           inclusion: 'true'
           m: '#'
@@ -1662,7 +1662,7 @@ thing:
           shape: cylinder
           type: positive
           width: 5
-      - - depth: 9
+      - - depth: 14
           extra: ninety_degree_join_style_m6_screw_wood
           h: 5
           height: 3
@@ -1677,24 +1677,24 @@ thing:
           shape: cylinder
           type: positive
           width: 5
-      - - depth: 9
+      - - depth: 14
           extra: ninety_degree_join_style_m6_screw_wood
-          h: 9
+          h: 14
           height: 3
           inclusion: laser
           m: '#'
           pos: &id003
           - 0
           - 0
-          - -9.0
+          - -14.0
           r: 2.25
           radius: 2.25
           shape: cylinder
           type: positive
           width: 5
-        - depth: 9
+        - depth: 14
           extra: ninety_degree_join_style_m6_screw_wood
-          h: 9
+          h: 14
           height: 3
           inclusion: 3dpr
           m: '#'
@@ -1703,9 +1703,9 @@ thing:
           shape: cylinder
           type: positive
           width: 5
-        - depth: 9
+        - depth: 14
           extra: ninety_degree_join_style_m6_screw_wood
-          h: 9
+          h: 14
           height: 3
           inclusion: 'true'
           m: '#'
@@ -1717,8 +1717,8 @@ thing:
           width: 5
       pos:
       - -45.0
-      - 15.0
-      - 9
+      - 8.0
+      - 4.5
       rot:
       - 90
       - 0
@@ -1726,7 +1726,7 @@ thing:
       type: rotation
       typetype: negative
   - - objects:
-      - - depth: 9
+      - - depth: 14
           extra: ninety_degree_join_style_m6_screw_wood
           h: 5
           height: 3
@@ -1741,24 +1741,24 @@ thing:
           shape: cylinder
           type: positive
           width: 5
-      - - depth: 9
+      - - depth: 14
           extra: ninety_degree_join_style_m6_screw_wood
-          h: 9
+          h: 14
           height: 3
           inclusion: laser
           m: '#'
           pos: &id004
           - 0
           - 0
-          - -9.0
+          - -14.0
           r: 2.25
           radius: 2.25
           shape: cylinder
           type: positive
           width: 5
-        - depth: 9
+        - depth: 14
           extra: ninety_degree_join_style_m6_screw_wood
-          h: 9
+          h: 14
           height: 3
           inclusion: 3dpr
           m: '#'
@@ -1767,9 +1767,9 @@ thing:
           shape: cylinder
           type: positive
           width: 5
-        - depth: 9
+        - depth: 14
           extra: ninety_degree_join_style_m6_screw_wood
-          h: 9
+          h: 14
           height: 3
           inclusion: 'true'
           m: '#'
@@ -1779,7 +1779,7 @@ thing:
           shape: cylinder
           type: positive
           width: 5
-      - - depth: 9
+      - - depth: 14
           extra: ninety_degree_join_style_m6_screw_wood
           h: 6
           height: 3
@@ -1794,24 +1794,24 @@ thing:
           shape: cylinder
           type: positive
           width: 5
-      - - depth: 9
+      - - depth: 14
           extra: ninety_degree_join_style_m6_screw_wood
-          h: 9
+          h: 14
           height: 3
           inclusion: laser
           m: '#'
           pos: &id005
           - 0
           - 0
-          - -9.0
+          - -14.0
           r: 3.25
           radius: 3.25
           shape: cylinder
           type: positive
           width: 5
-        - depth: 9
+        - depth: 14
           extra: ninety_degree_join_style_m6_screw_wood
-          h: 9
+          h: 14
           height: 3
           inclusion: 3dpr
           m: '#'
@@ -1820,9 +1820,9 @@ thing:
           shape: cylinder
           type: positive
           width: 5
-        - depth: 9
+        - depth: 14
           extra: ninety_degree_join_style_m6_screw_wood
-          h: 9
+          h: 14
           height: 3
           inclusion: 'true'
           m: '#'
@@ -1832,7 +1832,7 @@ thing:
           shape: cylinder
           type: positive
           width: 5
-      - - depth: 9
+      - - depth: 14
           extra: ninety_degree_join_style_m6_screw_wood
           h: 5
           height: 3
@@ -1847,24 +1847,24 @@ thing:
           shape: cylinder
           type: positive
           width: 5
-      - - depth: 9
+      - - depth: 14
           extra: ninety_degree_join_style_m6_screw_wood
-          h: 9
+          h: 14
           height: 3
           inclusion: laser
           m: '#'
           pos: &id006
           - 0
           - 0
-          - -9.0
+          - -14.0
           r: 2.25
           radius: 2.25
           shape: cylinder
           type: positive
           width: 5
-        - depth: 9
+        - depth: 14
           extra: ninety_degree_join_style_m6_screw_wood
-          h: 9
+          h: 14
           height: 3
           inclusion: 3dpr
           m: '#'
@@ -1873,9 +1873,9 @@ thing:
           shape: cylinder
           type: positive
           width: 5
-        - depth: 9
+        - depth: 14
           extra: ninety_degree_join_style_m6_screw_wood
-          h: 9
+          h: 14
           height: 3
           inclusion: 'true'
           m: '#'
@@ -1886,9 +1886,9 @@ thing:
           type: positive
           width: 5
       pos:
-      - -45.0
-      - -15.0
-      - 9
+      - 45.0
+      - -22.0
+      - 4.5
       rot:
       - 90
       - 0
@@ -2078,7 +2078,7 @@ thing:
     type: positive
     width: 2
   - bolt_extra: ''
-    depth: 9
+    depth: 14
     extra: ninety_degree_join_style_m6_screw_wood
     filter: ''
     height: 3
@@ -2101,8 +2101,8 @@ thing:
     overwrite: true
     pos:
     - -45.0
-    - 15.0
-    - 9
+    - 8.0
+    - 4.5
     radius_name: m6_screw_wood
     rot:
     - 90
@@ -2115,7 +2115,7 @@ thing:
     type: negative
     width: 5
   - bolt_extra: ''
-    depth: 9
+    depth: 14
     extra: ninety_degree_join_style_m6_screw_wood
     filter: ''
     height: 3
@@ -2137,9 +2137,9 @@ thing:
     oomp_type: part
     overwrite: true
     pos:
-    - -45.0
-    - -15.0
-    - 9
+    - 45.0
+    - -22.0
+    - 4.5
     radius_name: m6_screw_wood
     rot:
     - 90
@@ -2158,8 +2158,8 @@ thing:
   - oobb_plate_shape_positive_type_9_depth_-37.5_-15.0_0_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_2_width_1_height_9_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_m6_screw_wood_screw_radius_ninety_degree_join_style_ninety_degree_join_style_m6_screw_wood_extra
   - oobb_plate_shape_positive_type_9_depth_37.5_15.0_0_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_2_width_1_height_9_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_m6_screw_wood_screw_radius_ninety_degree_join_style_ninety_degree_join_style_m6_screw_wood_extra
   - oobb_plate_shape_positive_type_9_depth_37.5_-15.0_0_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_2_width_1_height_9_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_m6_screw_wood_screw_radius_ninety_degree_join_style_ninety_degree_join_style_m6_screw_wood_extra
-  - oobb_screw_countersunk_shape_negative_type_m6_screw_wood_radius_name_9_depth_-45.0_15.0_9_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_5_width_3_height_9_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_m6_screw_wood_screw_radius_ninety_degree_join_style_ninety_degree_join_style_m6_screw_wood_extra_perimeter_holes_90_0_0_rot
-  - oobb_screw_countersunk_shape_negative_type_m6_screw_wood_radius_name_9_depth_-45.0_-15.0_9_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_5_width_3_height_9_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_m6_screw_wood_screw_radius_ninety_degree_join_style_ninety_degree_join_style_m6_screw_wood_extra_perimeter_holes_90_0_0_rot
+  - oobb_screw_countersunk_shape_negative_type_m6_screw_wood_radius_name_14_depth_-45.0_8.0_4.5_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_5_width_3_height_9_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_m6_screw_wood_screw_radius_ninety_degree_join_style_ninety_degree_join_style_m6_screw_wood_extra_perimeter_holes_90_0_0_rot
+  - oobb_screw_countersunk_shape_negative_type_m6_screw_wood_radius_name_14_depth_45.0_-22.0_4.5_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_5_width_3_height_9_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_m6_screw_wood_screw_radius_ninety_degree_join_style_ninety_degree_join_style_m6_screw_wood_extra_perimeter_holes_90_0_0_rot
   description: oomlout oobb part plate screw down plate screw down 5x3x9
   description_extra: ninety_degree_join_style_m6_screw_wood_extra
   description_main: 5_width_3_height_9_mm_depth
