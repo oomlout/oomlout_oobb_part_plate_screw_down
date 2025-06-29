@@ -28,12 +28,13 @@ kwargs:
   oomp_manufacturer: ''
   oomp_mode: oobb
   oomp_part_number: ''
-  oomp_run: false
+  oomp_run: true
   oomp_size: plate_screw_down
   oomp_type: part
-  overwrite: true
+  overwrite: false
   screw_radius: m4_screw_wood
   thickness: 6
+  typ: all
   type: oomlout_oobb_part_plate_screw_down_plate_screw_down
   width: 5
 manufacturer: ''
@@ -462,6 +463,7 @@ thing:
           m: '#'
           pos: *id001
           r: 2.6
+          radius: 2.6
           shape: cylinder
           type: positive
           width: 5
@@ -515,6 +517,7 @@ thing:
           m: '#'
           pos: *id002
           r: 2.875
+          radius: 2.875
           shape: cylinder
           type: positive
           width: 5
@@ -568,6 +571,7 @@ thing:
           m: '#'
           pos: *id003
           r: 2.6
+          radius: 2.6
           shape: cylinder
           type: positive
           width: 5
@@ -632,6 +636,7 @@ thing:
           m: '#'
           pos: *id004
           r: 2.6
+          radius: 2.6
           shape: cylinder
           type: positive
           width: 5
@@ -685,6 +690,7 @@ thing:
           m: '#'
           pos: *id005
           r: 2.875
+          radius: 2.875
           shape: cylinder
           type: positive
           width: 5
@@ -738,6 +744,7 @@ thing:
           m: '#'
           pos: *id006
           r: 2.6
+          radius: 2.6
           shape: cylinder
           type: positive
           width: 5
@@ -830,6 +837,7 @@ thing:
           m: '#'
           pos: *id007
           r: 2.6
+          radius: 2.6
           shape: cylinder
           type: positive
           width: 5
@@ -883,6 +891,7 @@ thing:
           m: '#'
           pos: *id008
           r: 2.875
+          radius: 2.875
           shape: cylinder
           type: positive
           width: 5
@@ -936,6 +945,7 @@ thing:
           m: '#'
           pos: *id009
           r: 2.6
+          radius: 2.6
           shape: cylinder
           type: positive
           width: 5
@@ -1000,6 +1010,7 @@ thing:
           m: '#'
           pos: *id010
           r: 2.6
+          radius: 2.6
           shape: cylinder
           type: positive
           width: 5
@@ -1053,6 +1064,7 @@ thing:
           m: '#'
           pos: *id011
           r: 2.875
+          radius: 2.875
           shape: cylinder
           type: positive
           width: 5
@@ -1106,6 +1118,7 @@ thing:
           m: '#'
           pos: *id012
           r: 2.6
+          radius: 2.6
           shape: cylinder
           type: positive
           width: 5
@@ -1148,18 +1161,19 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: oobb
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: plate_screw_down
     oomp_type: part
-    overwrite: true
+    overwrite: false
     pos:
     - 0
     - 0
     - 0
-    save_type: none
+    save_type: all
     screw_radius: m4_screw_wood
     shape: oobb_plate
     thickness: 6
+    typ: all
     type: positive
     width: 5
   - bolt_extra: ''
@@ -1179,18 +1193,19 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: oobb
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: plate_screw_down
     oomp_type: part
-    overwrite: true
+    overwrite: false
     pos:
     - 0
     - 0
     - 0
-    save_type: none
+    save_type: all
     screw_radius: m4_screw_wood
     shape: oobb_holes
     thickness: 6
+    typ: all
     type: p
     width: 5
   - bolt_extra: ''
@@ -1209,18 +1224,19 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: oobb
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: plate_screw_down
     oomp_type: part
-    overwrite: true
+    overwrite: false
     pos:
     - -37.5
     - 0.0
     - 0
-    save_type: none
+    save_type: all
     screw_radius: m4_screw_wood
     shape: oobb_plate
     thickness: 6
+    typ: all
     type: positive
     width: 2
   - bolt_extra: ''
@@ -1239,18 +1255,19 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: oobb
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: plate_screw_down
     oomp_type: part
-    overwrite: true
+    overwrite: false
     pos:
     - -37.5
     - 0.0
     - 0
-    save_type: none
+    save_type: all
     screw_radius: m4_screw_wood
     shape: oobb_plate
     thickness: 6
+    typ: all
     type: positive
     width: 2
   - bolt_extra: ''
@@ -1271,19 +1288,20 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: oobb
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: plate_screw_down
     oomp_type: part
-    overwrite: true
+    overwrite: false
     pos:
     - -45.0
     - 0.0
     - 6
     radius_name: m4_screw_wood
-    save_type: none
+    save_type: all
     screw_radius: m4_screw_wood
     shape: oobb_screw_countersunk
     thickness: 6
+    typ: all
     type: negative
     width: 5
   - bolt_extra: ''
@@ -1304,19 +1322,20 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: oobb
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: plate_screw_down
     oomp_type: part
-    overwrite: true
+    overwrite: false
     pos:
     - -45.0
     - 0.0
     - 6
     radius_name: m4_screw_wood
-    save_type: none
+    save_type: all
     screw_radius: m4_screw_wood
     shape: oobb_screw_countersunk
     thickness: 6
+    typ: all
     type: negative
     width: 5
   - bolt_extra: ''
@@ -1335,18 +1354,19 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: oobb
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: plate_screw_down
     oomp_type: part
-    overwrite: true
+    overwrite: false
     pos:
     - 37.5
     - 0.0
     - 0
-    save_type: none
+    save_type: all
     screw_radius: m4_screw_wood
     shape: oobb_plate
     thickness: 6
+    typ: all
     type: positive
     width: 2
   - bolt_extra: ''
@@ -1365,18 +1385,19 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: oobb
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: plate_screw_down
     oomp_type: part
-    overwrite: true
+    overwrite: false
     pos:
     - 37.5
     - 0.0
     - 0
-    save_type: none
+    save_type: all
     screw_radius: m4_screw_wood
     shape: oobb_plate
     thickness: 6
+    typ: all
     type: positive
     width: 2
   - bolt_extra: ''
@@ -1397,19 +1418,20 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: oobb
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: plate_screw_down
     oomp_type: part
-    overwrite: true
+    overwrite: false
     pos:
     - 45.0
     - 0.0
     - 6
     radius_name: m4_screw_wood
-    save_type: none
+    save_type: all
     screw_radius: m4_screw_wood
     shape: oobb_screw_countersunk
     thickness: 6
+    typ: all
     type: negative
     width: 5
   - bolt_extra: ''
@@ -1430,32 +1452,33 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: oobb
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: plate_screw_down
     oomp_type: part
-    overwrite: true
+    overwrite: false
     pos:
     - 45.0
     - 0.0
     - 6
     radius_name: m4_screw_wood
-    save_type: none
+    save_type: all
     screw_radius: m4_screw_wood
     shape: oobb_screw_countersunk
     thickness: 6
+    typ: all
     type: negative
     width: 5
   components_string:
-  - oobb_plate_shape_positive_type_6_depth_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_5_width_1_height_6_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_m4_screw_wood_screw_radius_right_left_join_style_right_left_join_style_m4_screw_wood_extra
-  - oobb_holes_shape_p_type_6_depth_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_5_width_1_height_6_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_m4_screw_wood_screw_radius_right_left_join_style_right_left_join_style_m4_screw_wood_extra_true_both_holes
-  - oobb_plate_shape_positive_type_6_depth_-37.5_0.0_0_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_2_width_1_height_6_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_m4_screw_wood_screw_radius_right_left_join_style_right_left_join_style_m4_screw_wood_extra
-  - oobb_plate_shape_positive_type_6_depth_-37.5_0.0_0_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_2_width_1_height_6_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_m4_screw_wood_screw_radius_right_left_join_style_right_left_join_style_m4_screw_wood_extra
-  - oobb_screw_countersunk_shape_negative_type_m4_screw_wood_radius_name_6_depth_-45.0_0.0_6_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_5_width_1_height_6_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_m4_screw_wood_screw_radius_right_left_join_style_right_left_join_style_m4_screw_wood_extra_perimeter_holes
-  - oobb_screw_countersunk_shape_negative_type_m4_screw_wood_radius_name_6_depth_-45.0_0.0_6_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_5_width_1_height_6_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_m4_screw_wood_screw_radius_right_left_join_style_right_left_join_style_m4_screw_wood_extra_perimeter_holes
-  - oobb_plate_shape_positive_type_6_depth_37.5_0.0_0_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_2_width_1_height_6_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_m4_screw_wood_screw_radius_right_left_join_style_right_left_join_style_m4_screw_wood_extra
-  - oobb_plate_shape_positive_type_6_depth_37.5_0.0_0_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_2_width_1_height_6_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_m4_screw_wood_screw_radius_right_left_join_style_right_left_join_style_m4_screw_wood_extra
-  - oobb_screw_countersunk_shape_negative_type_m4_screw_wood_radius_name_6_depth_45.0_0.0_6_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_5_width_1_height_6_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_m4_screw_wood_screw_radius_right_left_join_style_right_left_join_style_m4_screw_wood_extra_perimeter_holes
-  - oobb_screw_countersunk_shape_negative_type_m4_screw_wood_radius_name_6_depth_45.0_0.0_6_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_5_width_1_height_6_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_m4_screw_wood_screw_radius_right_left_join_style_right_left_join_style_m4_screw_wood_extra_perimeter_holes
+  - oobb_plate_shape_positive_type_6_depth_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_5_width_1_height_6_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_m4_screw_wood_screw_radius_right_left_join_style_right_left_join_style_m4_screw_wood_extra
+  - oobb_holes_shape_p_type_6_depth_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_5_width_1_height_6_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_m4_screw_wood_screw_radius_right_left_join_style_right_left_join_style_m4_screw_wood_extra_true_both_holes
+  - oobb_plate_shape_positive_type_6_depth_-37.5_0.0_0_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_2_width_1_height_6_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_m4_screw_wood_screw_radius_right_left_join_style_right_left_join_style_m4_screw_wood_extra
+  - oobb_plate_shape_positive_type_6_depth_-37.5_0.0_0_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_2_width_1_height_6_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_m4_screw_wood_screw_radius_right_left_join_style_right_left_join_style_m4_screw_wood_extra
+  - oobb_screw_countersunk_shape_negative_type_m4_screw_wood_radius_name_6_depth_-45.0_0.0_6_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_5_width_1_height_6_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_m4_screw_wood_screw_radius_right_left_join_style_right_left_join_style_m4_screw_wood_extra_perimeter_holes
+  - oobb_screw_countersunk_shape_negative_type_m4_screw_wood_radius_name_6_depth_-45.0_0.0_6_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_5_width_1_height_6_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_m4_screw_wood_screw_radius_right_left_join_style_right_left_join_style_m4_screw_wood_extra_perimeter_holes
+  - oobb_plate_shape_positive_type_6_depth_37.5_0.0_0_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_2_width_1_height_6_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_m4_screw_wood_screw_radius_right_left_join_style_right_left_join_style_m4_screw_wood_extra
+  - oobb_plate_shape_positive_type_6_depth_37.5_0.0_0_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_2_width_1_height_6_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_m4_screw_wood_screw_radius_right_left_join_style_right_left_join_style_m4_screw_wood_extra
+  - oobb_screw_countersunk_shape_negative_type_m4_screw_wood_radius_name_6_depth_45.0_0.0_6_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_5_width_1_height_6_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_m4_screw_wood_screw_radius_right_left_join_style_right_left_join_style_m4_screw_wood_extra_perimeter_holes
+  - oobb_screw_countersunk_shape_negative_type_m4_screw_wood_radius_name_6_depth_45.0_0.0_6_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_5_width_1_height_6_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_m4_screw_wood_screw_radius_right_left_join_style_right_left_join_style_m4_screw_wood_extra_perimeter_holes
   description: oomlout oobb part plate screw down plate screw down 5x1x6
   description_extra: right_left_join_style_m4_screw_wood_extra
   description_main: 5_width_1_height_6_mm_depth

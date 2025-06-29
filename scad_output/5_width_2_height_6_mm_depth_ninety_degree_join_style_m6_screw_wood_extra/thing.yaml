@@ -1043,6 +1043,7 @@ thing:
           m: '#'
           pos: *id001
           r: 2.25
+          radius: 2.25
           shape: cylinder
           type: positive
           width: 5
@@ -1096,6 +1097,7 @@ thing:
           m: '#'
           pos: *id002
           r: 3.25
+          radius: 3.25
           shape: cylinder
           type: positive
           width: 5
@@ -1149,6 +1151,7 @@ thing:
           m: '#'
           pos: *id003
           r: 2.25
+          radius: 2.25
           shape: cylinder
           type: positive
           width: 5
@@ -1213,6 +1216,7 @@ thing:
           m: '#'
           pos: *id004
           r: 2.25
+          radius: 2.25
           shape: cylinder
           type: positive
           width: 5
@@ -1266,6 +1270,7 @@ thing:
           m: '#'
           pos: *id005
           r: 3.25
+          radius: 3.25
           shape: cylinder
           type: positive
           width: 5
@@ -1319,6 +1324,7 @@ thing:
           m: '#'
           pos: *id006
           r: 2.25
+          radius: 2.25
           shape: cylinder
           type: positive
           width: 5
