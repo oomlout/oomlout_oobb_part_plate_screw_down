@@ -397,34 +397,62 @@ thing:
           type: negative
   - - depth: 12
       extra: ninety_degree_join_style_m4_screw_wood_bolt_recess
-      height: 2
+      height: 1
       pos:
-      - 30.0
-      - 7.5
+      - -37.5
+      - 0.0
       - 0
       shape: rounded_rectangle
       size:
-      - 14
       - 29
+      - 14
       - 12
       type: positive
-      width: 1
+      width: 2
   - - depth: 12
       extra: ninety_degree_join_style_m4_screw_wood_bolt_recess
-      height: 2
+      height: 1
       pos:
-      - -30.0
-      - 7.5
+      - -37.5
+      - 0.0
       - 0
       shape: rounded_rectangle
       size:
-      - 14
       - 29
+      - 14
       - 12
       type: positive
-      width: 1
+      width: 2
+  - - depth: 12
+      extra: ninety_degree_join_style_m4_screw_wood_bolt_recess
+      height: 1
+      pos:
+      - 37.5
+      - 0.0
+      - 0
+      shape: rounded_rectangle
+      size:
+      - 29
+      - 14
+      - 12
+      type: positive
+      width: 2
+  - - depth: 12
+      extra: ninety_degree_join_style_m4_screw_wood_bolt_recess
+      height: 1
+      pos:
+      - 37.5
+      - 0.0
+      - 0
+      shape: rounded_rectangle
+      size:
+      - 29
+      - 14
+      - 12
+      type: positive
+      width: 2
   - - objects:
-      - - depth: 12
+      - - depth: 14
           extra: ninety_degree_join_style_m4_screw_wood_bolt_recess
           h: 3.7
           height: 1
@@ -439,24 +467,24 @@ thing:
           shape: cylinder
           type: positive
           width: 5
-      - - depth: 12
+      - - depth: 14
           extra: ninety_degree_join_style_m4_screw_wood_bolt_recess
-          h: 12
+          h: 14
           height: 1
           inclusion: laser
           m: '#'
           pos: &id001
           - 0
           - 0
-          - -12.0
+          - -14.0
           r: 2.6
           radius: 2.6
           shape: cylinder
           type: positive
           width: 5
-        - depth: 12
+        - depth: 14
           extra: ninety_degree_join_style_m4_screw_wood_bolt_recess
-          h: 12
+          h: 14
           height: 1
           inclusion: 3dpr
           m: '#'
@@ -465,9 +493,9 @@ thing:
           shape: cylinder
           type: positive
           width: 5
-        - depth: 12
+        - depth: 14
           extra: ninety_degree_join_style_m4_screw_wood_bolt_recess
-          h: 12
+          h: 14
           height: 1
           inclusion: 'true'
           m: '#'
@@ -477,7 +505,7 @@ thing:
           shape: cylinder
           type: positive
           width: 5
-      - - depth: 12
+      - - depth: 14
           extra: ninety_degree_join_style_m4_screw_wood_bolt_recess
           h: 3.9
           height: 1
@@ -492,24 +520,24 @@ thing:
           shape: cylinder
           type: positive
           width: 5
-      - - depth: 12
+      - - depth: 14
           extra: ninety_degree_join_style_m4_screw_wood_bolt_recess
-          h: 12
+          h: 14
           height: 1
           inclusion: laser
           m: '#'
           pos: &id002
           - 0
           - 0
-          - -12.0
+          - -14.0
           r: 2.875
           radius: 2.875
           shape: cylinder
           type: positive
           width: 5
-        - depth: 12
+        - depth: 14
           extra: ninety_degree_join_style_m4_screw_wood_bolt_recess
-          h: 12
+          h: 14
           height: 1
           inclusion: 3dpr
           m: '#'
@@ -518,9 +546,9 @@ thing:
           shape: cylinder
           type: positive
           width: 5
-        - depth: 12
+        - depth: 14
           extra: ninety_degree_join_style_m4_screw_wood_bolt_recess
-          h: 12
+          h: 14
           height: 1
           inclusion: 'true'
           m: '#'
@@ -530,7 +558,7 @@ thing:
           shape: cylinder
           type: positive
           width: 5
-      - - depth: 12
+      - - depth: 14
           extra: ninety_degree_join_style_m4_screw_wood_bolt_recess
           h: 3.7
           height: 1
@@ -545,24 +573,24 @@ thing:
           shape: cylinder
           type: positive
           width: 5
-      - - depth: 12
+      - - depth: 14
           extra: ninety_degree_join_style_m4_screw_wood_bolt_recess
-          h: 12
+          h: 14
           height: 1
           inclusion: laser
           m: '#'
           pos: &id003
           - 0
           - 0
-          - -12.0
+          - -14.0
           r: 2.6
           radius: 2.6
           shape: cylinder
           type: positive
           width: 5
-        - depth: 12
+        - depth: 14
           extra: ninety_degree_join_style_m4_screw_wood_bolt_recess
-          h: 12
+          h: 14
           height: 1
           inclusion: 3dpr
           m: '#'
@@ -571,9 +599,9 @@ thing:
           shape: cylinder
           type: positive
           width: 5
-        - depth: 12
+        - depth: 14
           extra: ninety_degree_join_style_m4_screw_wood_bolt_recess
-          h: 12
+          h: 14
           height: 1
           inclusion: 'true'
           m: '#'
@@ -584,17 +612,17 @@ thing:
           type: positive
           width: 5
       pos:
-      - 30.0
-      - 15.0
-      - 12
+      - -45.0
+      - -7.0
+      - 6.0
       rot:
-      - 0
+      - 90
       - 0
       - 0
       type: rotation
       typetype: negative
   - - objects:
-      - - depth: 12
+      - - depth: 14
           extra: ninety_degree_join_style_m4_screw_wood_bolt_recess
           h: 3.7
           height: 1
@@ -609,24 +637,24 @@ thing:
           shape: cylinder
           type: positive
           width: 5
-      - - depth: 12
+      - - depth: 14
           extra: ninety_degree_join_style_m4_screw_wood_bolt_recess
-          h: 12
+          h: 14
           height: 1
           inclusion: laser
           m: '#'
           pos: &id004
           - 0
           - 0
-          - -12.0
+          - -14.0
           r: 2.6
           radius: 2.6
           shape: cylinder
           type: positive
           width: 5
-        - depth: 12
+        - depth: 14
           extra: ninety_degree_join_style_m4_screw_wood_bolt_recess
-          h: 12
+          h: 14
           height: 1
           inclusion: 3dpr
           m: '#'
@@ -635,9 +663,9 @@ thing:
           shape: cylinder
           type: positive
           width: 5
-        - depth: 12
+        - depth: 14
           extra: ninety_degree_join_style_m4_screw_wood_bolt_recess
-          h: 12
+          h: 14
           height: 1
           inclusion: 'true'
           m: '#'
@@ -647,7 +675,7 @@ thing:
           shape: cylinder
           type: positive
           width: 5
-      - - depth: 12
+      - - depth: 14
           extra: ninety_degree_join_style_m4_screw_wood_bolt_recess
           h: 3.9
           height: 1
@@ -662,24 +690,24 @@ thing:
           shape: cylinder
           type: positive
           width: 5
-      - - depth: 12
+      - - depth: 14
           extra: ninety_degree_join_style_m4_screw_wood_bolt_recess
-          h: 12
+          h: 14
           height: 1
           inclusion: laser
           m: '#'
           pos: &id005
           - 0
           - 0
-          - -12.0
+          - -14.0
           r: 2.875
           radius: 2.875
           shape: cylinder
           type: positive
           width: 5
-        - depth: 12
+        - depth: 14
           extra: ninety_degree_join_style_m4_screw_wood_bolt_recess
-          h: 12
+          h: 14
           height: 1
           inclusion: 3dpr
           m: '#'
@@ -688,9 +716,9 @@ thing:
           shape: cylinder
           type: positive
           width: 5
-        - depth: 12
+        - depth: 14
           extra: ninety_degree_join_style_m4_screw_wood_bolt_recess
-          h: 12
+          h: 14
           height: 1
           inclusion: 'true'
           m: '#'
@@ -700,7 +728,7 @@ thing:
           shape: cylinder
           type: positive
           width: 5
-      - - depth: 12
+      - - depth: 14
           extra: ninety_degree_join_style_m4_screw_wood_bolt_recess
           h: 3.7
           height: 1
@@ -715,24 +743,24 @@ thing:
           shape: cylinder
           type: positive
           width: 5
-      - - depth: 12
+      - - depth: 14
           extra: ninety_degree_join_style_m4_screw_wood_bolt_recess
-          h: 12
+          h: 14
           height: 1
           inclusion: laser
           m: '#'
           pos: &id006
           - 0
           - 0
-          - -12.0
+          - -14.0
           r: 2.6
           radius: 2.6
           shape: cylinder
           type: positive
           width: 5
-        - depth: 12
+        - depth: 14
           extra: ninety_degree_join_style_m4_screw_wood_bolt_recess
-          h: 12
+          h: 14
           height: 1
           inclusion: 3dpr
           m: '#'
@@ -741,9 +769,9 @@ thing:
           shape: cylinder
           type: positive
           width: 5
-        - depth: 12
+        - depth: 14
           extra: ninety_degree_join_style_m4_screw_wood_bolt_recess
-          h: 12
+          h: 14
           height: 1
           inclusion: 'true'
           m: '#'
@@ -754,11 +782,11 @@ thing:
           type: positive
           width: 5
       pos:
-      - -30.0
-      - 15.0
-      - 12
+      - 45.0
+      - -7.0
+      - 6.0
       rot:
-      - 0
+      - 90
       - 0
       - 0
       type: rotation
@@ -1924,7 +1952,7 @@ thing:
     depth: 12
     extra: ninety_degree_join_style_m4_screw_wood_bolt_recess
     filter: ''
-    height: 2
+    height: 1
     join_style: ninety_degree
     modes:
     - 3dpr
@@ -1941,20 +1969,20 @@ thing:
     oomp_type: part
     overwrite: true
     pos:
-    - 30.0
-    - 7.5
+    - -37.5
+    - 0.0
     - 0
     save_type: none
     screw_radius: m4_screw_wood
     shape: oobb_plate
     thickness: 12
     type: positive
-    width: 1
+    width: 2
   - bolt_extra: bolt_recess
     depth: 12
     extra: ninety_degree_join_style_m4_screw_wood_bolt_recess
     filter: ''
-    height: 2
+    height: 1
     join_style: ninety_degree
     modes:
     - 3dpr
@@ -1971,17 +1999,77 @@ thing:
     oomp_type: part
     overwrite: true
     pos:
-    - -30.0
-    - 7.5
+    - -37.5
+    - 0.0
     - 0
     save_type: none
     screw_radius: m4_screw_wood
     shape: oobb_plate
     thickness: 12
     type: positive
-    width: 1
+    width: 2
   - bolt_extra: bolt_recess
     depth: 12
+    extra: ninety_degree_join_style_m4_screw_wood_bolt_recess
+    filter: ''
+    height: 1
+    join_style: ninety_degree
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: oobb
+    oomp_color: ''
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: oobb
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: plate_screw_down
+    oomp_type: part
+    overwrite: true
+    pos:
+    - 37.5
+    - 0.0
+    - 0
+    save_type: none
+    screw_radius: m4_screw_wood
+    shape: oobb_plate
+    thickness: 12
+    type: positive
+    width: 2
+  - bolt_extra: bolt_recess
+    depth: 12
+    extra: ninety_degree_join_style_m4_screw_wood_bolt_recess
+    filter: ''
+    height: 1
+    join_style: ninety_degree
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_classification: oobb
+    oomp_color: ''
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: oobb
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: plate_screw_down
+    oomp_type: part
+    overwrite: true
+    pos:
+    - 37.5
+    - 0.0
+    - 0
+    save_type: none
+    screw_radius: m4_screw_wood
+    shape: oobb_plate
+    thickness: 12
+    type: positive
+    width: 2
+  - bolt_extra: bolt_recess
+    depth: 14
     extra: ninety_degree_join_style_m4_screw_wood_bolt_recess
     filter: ''
     height: 1
@@ -2003,10 +2091,14 @@ thing:
     oomp_type: part
     overwrite: true
     pos:
-    - 30.0
-    - 15.0
-    - 12
+    - -45.0
+    - -7.0
+    - 6.0
     radius_name: m4_screw_wood
+    rot:
+    - 90
+    - 0
+    - 0
     save_type: none
     screw_radius: m4_screw_wood
     shape: oobb_screw_countersunk
@@ -2014,7 +2106,7 @@ thing:
     type: negative
     width: 5
   - bolt_extra: bolt_recess
-    depth: 12
+    depth: 14
     extra: ninety_degree_join_style_m4_screw_wood_bolt_recess
     filter: ''
     height: 1
@@ -2036,10 +2128,14 @@ thing:
     oomp_type: part
     overwrite: true
     pos:
-    - -30.0
-    - 15.0
-    - 12
+    - 45.0
+    - -7.0
+    - 6.0
     radius_name: m4_screw_wood
+    rot:
+    - 90
+    - 0
+    - 0
     save_type: none
     screw_radius: m4_screw_wood
     shape: oobb_screw_countersunk
@@ -2148,10 +2244,12 @@ thing:
   components_string:
   - oobb_plate_shape_positive_type_12_depth_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_5_width_1_height_12_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_bolt_recess_bolt_extra_m4_screw_wood_screw_radius_ninety_degree_join_style_ninety_degree_join_style_m4_screw_wood_bolt_recess_extra
   - oobb_holes_shape_p_type_12_depth_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_5_width_1_height_12_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_bolt_recess_bolt_extra_m4_screw_wood_screw_radius_ninety_degree_join_style_ninety_degree_join_style_m4_screw_wood_bolt_recess_extra_true_both_holes
-  - oobb_plate_shape_positive_type_12_depth_30.0_7.5_0_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_1_width_2_height_12_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_bolt_recess_bolt_extra_m4_screw_wood_screw_radius_ninety_degree_join_style_ninety_degree_join_style_m4_screw_wood_bolt_recess_extra
-  - oobb_plate_shape_positive_type_12_depth_-30.0_7.5_0_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_1_width_2_height_12_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_bolt_recess_bolt_extra_m4_screw_wood_screw_radius_ninety_degree_join_style_ninety_degree_join_style_m4_screw_wood_bolt_recess_extra
-  - oobb_screw_countersunk_shape_negative_type_m4_screw_wood_radius_name_12_depth_30.0_15.0_12_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_5_width_1_height_12_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_bolt_recess_bolt_extra_m4_screw_wood_screw_radius_ninety_degree_join_style_ninety_degree_join_style_m4_screw_wood_bolt_recess_extra_perimeter_holes
-  - oobb_screw_countersunk_shape_negative_type_m4_screw_wood_radius_name_12_depth_-30.0_15.0_12_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_5_width_1_height_12_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_bolt_recess_bolt_extra_m4_screw_wood_screw_radius_ninety_degree_join_style_ninety_degree_join_style_m4_screw_wood_bolt_recess_extra_perimeter_holes
+  - oobb_plate_shape_positive_type_12_depth_-37.5_0.0_0_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_2_width_1_height_12_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_bolt_recess_bolt_extra_m4_screw_wood_screw_radius_ninety_degree_join_style_ninety_degree_join_style_m4_screw_wood_bolt_recess_extra
+  - oobb_plate_shape_positive_type_12_depth_-37.5_0.0_0_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_2_width_1_height_12_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_bolt_recess_bolt_extra_m4_screw_wood_screw_radius_ninety_degree_join_style_ninety_degree_join_style_m4_screw_wood_bolt_recess_extra
+  - oobb_plate_shape_positive_type_12_depth_37.5_0.0_0_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_2_width_1_height_12_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_bolt_recess_bolt_extra_m4_screw_wood_screw_radius_ninety_degree_join_style_ninety_degree_join_style_m4_screw_wood_bolt_recess_extra
+  - oobb_plate_shape_positive_type_12_depth_37.5_0.0_0_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_2_width_1_height_12_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_bolt_recess_bolt_extra_m4_screw_wood_screw_radius_ninety_degree_join_style_ninety_degree_join_style_m4_screw_wood_bolt_recess_extra
+  - oobb_screw_countersunk_shape_negative_type_m4_screw_wood_radius_name_14_depth_-45.0_-7.0_6.0_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_5_width_1_height_12_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_bolt_recess_bolt_extra_m4_screw_wood_screw_radius_ninety_degree_join_style_ninety_degree_join_style_m4_screw_wood_bolt_recess_extra_perimeter_holes_90_0_0_rot
+  - oobb_screw_countersunk_shape_negative_type_m4_screw_wood_radius_name_14_depth_45.0_-7.0_6.0_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_5_width_1_height_12_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_bolt_recess_bolt_extra_m4_screw_wood_screw_radius_ninety_degree_join_style_ninety_degree_join_style_m4_screw_wood_bolt_recess_extra_perimeter_holes_90_0_0_rot
   - oobb_nut_shape_negative_type_m6_radius_name_-30.0_0.0_0_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_5_width_1_height_12_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_bolt_recess_bolt_extra_m4_screw_wood_screw_radius_ninety_degree_join_style_ninety_degree_join_style_m4_screw_wood_bolt_recess_extra_true_overhang_true_hole
   - oobb_nut_shape_negative_type_m6_radius_name_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_5_width_1_height_12_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_bolt_recess_bolt_extra_m4_screw_wood_screw_radius_ninety_degree_join_style_ninety_degree_join_style_m4_screw_wood_bolt_recess_extra_true_overhang_true_hole
   - oobb_nut_shape_negative_type_m6_radius_name_30.0_0.0_0_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_5_width_1_height_12_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_bolt_recess_bolt_extra_m4_screw_wood_screw_radius_ninety_degree_join_style_ninety_degree_join_style_m4_screw_wood_bolt_recess_extra_true_overhang_true_hole
