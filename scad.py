@@ -119,7 +119,7 @@ def make_scad(**kwargs):
         sizes = []
         #all 1 widths
         for i in range(1, 15):
-            sizes.append({"width": 5, "height": i})
+            sizes.append({"width": 1, "height": i})
         
         sizes.append({"width": 5, "height": 2})
         sizes.append({"width": 5, "height": 3})
