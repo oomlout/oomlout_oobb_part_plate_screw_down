@@ -113,13 +113,14 @@ def make_scad(**kwargs):
         screw_radiuses = ["m3_screw_wood", "m4_screw_wood", "m5_screw_wood", "m6_screw_wood"]
         #screw_radiuses = ["m3_screw_wood"]
         
-        join_styles = ["top", "top_bottom", "right", "right_left","ninety_degree"]
-        #join_styles = ["ninety_degree"]
+        #join_styles = ["top", "top_bottom", "right", "right_left","ninety_degree"]
+        join_styles = ["ninety_degree"]
         
         sizes = []
         #all 1 widths
-        for i in range(1, 15):
-            sizes.append({"width": 1, "height": i})
+        #for i in range(1, 15):
+        for i in range(11, 11):
+            sizes.append({"width": i, "height": 1})
         
         sizes.append({"width": 5, "height": 2})
         sizes.append({"width": 5, "height": 3})
