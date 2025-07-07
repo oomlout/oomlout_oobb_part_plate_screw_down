@@ -965,36 +965,8 @@ thing:
       extra: ninety_degree_join_style_m6_screw_wood_bolt_recess
       height: 1
       pos:
-      - -37.5
-      - -7.5
-      - 0
-      shape: rounded_rectangle
-      size:
-      - 29
-      - 14
-      - 15
-      type: positive
-      width: 2
-  - - depth: 15
-      extra: ninety_degree_join_style_m6_screw_wood_bolt_recess
-      height: 1
-      pos:
       - 37.5
       - 7.5
-      - 0
-      shape: rounded_rectangle
-      size:
-      - 29
-      - 14
-      - 15
-      type: positive
-      width: 2
-  - - depth: 15
-      extra: ninety_degree_join_style_m6_screw_wood_bolt_recess
-      height: 1
-      pos:
-      - 37.5
-      - -7.5
       - 0
       shape: rounded_rectangle
       size:
@@ -1335,7 +1307,7 @@ thing:
           width: 5
       pos:
       - 45.0
-      - -14.5
+      - 0.5
       - 7.5
       rot:
       - 90
@@ -3281,68 +3253,8 @@ thing:
     oomp_type: part
     overwrite: true
     pos:
-    - -37.5
-    - -7.5
-    - 0
-    save_type: none
-    screw_radius: m6_screw_wood
-    shape: oobb_plate
-    thickness: 15
-    type: positive
-    width: 2
-  - bolt_extra: bolt_recess
-    depth: 15
-    extra: ninety_degree_join_style_m6_screw_wood_bolt_recess
-    filter: ''
-    height: 1
-    join_style: ninety_degree
-    modes:
-    - 3dpr
-    navigation: true
-    oomp_classification: oobb
-    oomp_color: ''
-    oomp_description_extra: ''
-    oomp_description_main: ''
-    oomp_manufacturer: ''
-    oomp_mode: oobb
-    oomp_part_number: ''
-    oomp_run: false
-    oomp_size: plate_screw_down
-    oomp_type: part
-    overwrite: true
-    pos:
     - 37.5
     - 7.5
-    - 0
-    save_type: none
-    screw_radius: m6_screw_wood
-    shape: oobb_plate
-    thickness: 15
-    type: positive
-    width: 2
-  - bolt_extra: bolt_recess
-    depth: 15
-    extra: ninety_degree_join_style_m6_screw_wood_bolt_recess
-    filter: ''
-    height: 1
-    join_style: ninety_degree
-    modes:
-    - 3dpr
-    navigation: true
-    oomp_classification: oobb
-    oomp_color: ''
-    oomp_description_extra: ''
-    oomp_description_main: ''
-    oomp_manufacturer: ''
-    oomp_mode: oobb
-    oomp_part_number: ''
-    oomp_run: false
-    oomp_size: plate_screw_down
-    oomp_type: part
-    overwrite: true
-    pos:
-    - 37.5
-    - -7.5
     - 0
     save_type: none
     screw_radius: m6_screw_wood
@@ -3411,7 +3323,7 @@ thing:
     overwrite: true
     pos:
     - 45.0
-    - -14.5
+    - 0.5
     - 7.5
     radius_name: m6_screw_wood
     rot:
@@ -3593,11 +3505,9 @@ thing:
   - oobb_plate_shape_positive_type_15_depth_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_5_width_2_height_15_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_bolt_recess_bolt_extra_m6_screw_wood_screw_radius_ninety_degree_join_style_ninety_degree_join_style_m6_screw_wood_bolt_recess_extra
   - oobb_holes_shape_p_type_15_depth_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_5_width_2_height_15_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_bolt_recess_bolt_extra_m6_screw_wood_screw_radius_ninety_degree_join_style_ninety_degree_join_style_m6_screw_wood_bolt_recess_extra_true_both_holes
   - oobb_plate_shape_positive_type_15_depth_-37.5_7.5_0_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_2_width_1_height_15_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_bolt_recess_bolt_extra_m6_screw_wood_screw_radius_ninety_degree_join_style_ninety_degree_join_style_m6_screw_wood_bolt_recess_extra
-  - oobb_plate_shape_positive_type_15_depth_-37.5_-7.5_0_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_2_width_1_height_15_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_bolt_recess_bolt_extra_m6_screw_wood_screw_radius_ninety_degree_join_style_ninety_degree_join_style_m6_screw_wood_bolt_recess_extra
   - oobb_plate_shape_positive_type_15_depth_37.5_7.5_0_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_2_width_1_height_15_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_bolt_recess_bolt_extra_m6_screw_wood_screw_radius_ninety_degree_join_style_ninety_degree_join_style_m6_screw_wood_bolt_recess_extra
-  - oobb_plate_shape_positive_type_15_depth_37.5_-7.5_0_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_2_width_1_height_15_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_bolt_recess_bolt_extra_m6_screw_wood_screw_radius_ninety_degree_join_style_ninety_degree_join_style_m6_screw_wood_bolt_recess_extra
   - oobb_screw_countersunk_shape_negative_type_m6_screw_wood_radius_name_14_depth_-45.0_0.5_7.5_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_5_width_2_height_15_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_bolt_recess_bolt_extra_m6_screw_wood_screw_radius_ninety_degree_join_style_ninety_degree_join_style_m6_screw_wood_bolt_recess_extra_perimeter_holes_90_0_0_rot
-  - oobb_screw_countersunk_shape_negative_type_m6_screw_wood_radius_name_14_depth_45.0_-14.5_7.5_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_5_width_2_height_15_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_bolt_recess_bolt_extra_m6_screw_wood_screw_radius_ninety_degree_join_style_ninety_degree_join_style_m6_screw_wood_bolt_recess_extra_perimeter_holes_90_0_0_rot
+  - oobb_screw_countersunk_shape_negative_type_m6_screw_wood_radius_name_14_depth_45.0_0.5_7.5_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_5_width_2_height_15_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_bolt_recess_bolt_extra_m6_screw_wood_screw_radius_ninety_degree_join_style_ninety_degree_join_style_m6_screw_wood_bolt_recess_extra_perimeter_holes_90_0_0_rot
   - oobb_nut_shape_negative_type_m6_radius_name_-30.0_-7.5_0_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_5_width_2_height_15_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_bolt_recess_bolt_extra_m6_screw_wood_screw_radius_ninety_degree_join_style_ninety_degree_join_style_m6_screw_wood_bolt_recess_extra_true_overhang_true_hole
   - oobb_nut_shape_negative_type_m6_radius_name_-15.0_7.5_0_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_5_width_2_height_15_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_bolt_recess_bolt_extra_m6_screw_wood_screw_radius_ninety_degree_join_style_ninety_degree_join_style_m6_screw_wood_bolt_recess_extra_true_overhang_true_hole
   - oobb_nut_shape_negative_type_m6_radius_name_0.0_-7.5_0_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_5_width_2_height_15_thickness_oobb_oomp_classification_part_oomp_type_plate_screw_down_oomp_size_bolt_recess_bolt_extra_m6_screw_wood_screw_radius_ninety_degree_join_style_ninety_degree_join_style_m6_screw_wood_bolt_recess_extra_true_overhang_true_hole

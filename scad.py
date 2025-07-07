@@ -113,13 +113,14 @@ def make_scad(**kwargs):
         screw_radiuses = ["m3_screw_wood", "m4_screw_wood", "m5_screw_wood", "m6_screw_wood"]
         #screw_radiuses = ["m3_screw_wood"]
         
-        #join_styles = ["top", "top_bottom", "right", "right_left","ninety_degree"]
+        join_styles = ["top", "top_bottom", "right", "right_left","ninety_degree"]
         join_styles = ["ninety_degree"]
         
         sizes = []
         #all 1 widths
-        #for i in range(1, 15):
-        for i in range(11, 11):
+        for i in range(1, 15):
+        #for i in range(11, 11):
+            pass
             sizes.append({"width": i, "height": 1})
         
         sizes.append({"width": 5, "height": 2})
@@ -400,7 +401,7 @@ def get_base(thing, **kwargs):
             pos12 = copy.deepcopy(pos11)
             pos12[1] += -(height-1) * 15
             poss.append(pos11)
-            poss.append(pos12)
+            #poss.append(pos12)
             p3["pos"] = poss
             oobb_base.append_full(thing,**p3)
             #add piece for the screwdown
@@ -419,7 +420,7 @@ def get_base(thing, **kwargs):
             pos12 = copy.deepcopy(pos11)
             pos12[1] += -(height-1) * 15
             poss.append(pos11)
-            poss.append(pos12)
+            #poss.append(pos12)
             p3["pos"] = poss
             oobb_base.append_full(thing,**p3)
             #add screws
@@ -442,7 +443,7 @@ def get_base(thing, **kwargs):
                 pos11[1] += shift_y
                 pos12 = copy.deepcopy(pos1)
                 pos12[0] += (width-1) * 15 / 2 + 15  
-                pos12[1] += -shift_y
+                pos12[1] += shift_y
                 poss.append(pos11)
                 poss.append(pos12)
                 p3["pos"] = poss
